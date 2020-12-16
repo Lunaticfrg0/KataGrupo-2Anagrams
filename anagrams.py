@@ -11,5 +11,3 @@ def compute_anagrams(words):
 
     return anagrams
 
-
-Has git add . 

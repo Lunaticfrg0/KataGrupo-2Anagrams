@@ -1,7 +1,6 @@
 --Requerimientos
     --REQ-F-01: El sistema debe analizar la lista de palabras en un documento en blanco y devolver aquellos conjuntos
                 de palabras que formen anagramas.
-    --REQ-
 
 
 --Criterios de Aceptacion
