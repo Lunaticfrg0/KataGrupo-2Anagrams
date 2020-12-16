@@ -18,6 +18,11 @@ class TestAnagram(unittest.TestCase):
     def test_anagrams4(self):
         words = ["pAste", "tapeS", "Sepat"]
         self.assertEqual(compute_anagrams(words), {"aepst" : ['paste', 'tapes', 'sepat']})
+        
+    def test_anagrams5(self):
+        words = ["abc", 'hi', "jereMy", "RONIEL"]
+        self.assertEqual(compute_anagrams(words), {"abc" : ['abc'],'hi':['hi'], 'eejmry':['jeremy'], 'eilnor':['roniel']})
+
 
 if __name__ == '__main__':
     unittest.main()
