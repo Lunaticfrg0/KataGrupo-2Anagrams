@@ -1,9 +1,15 @@
 def compute_anagrams(words):
-    result = {}
-    result[words[0]] = []
-    result[words[0]].append(words[0])
-    result[words[0]].append(words[1])
-    result[words[0]].append(words[2])
-    result[words[0]].append(words[3])
+    anagrams = {}
+    
+    for word in range(len(words)):
+        lowercase_word = words[word].lower()
+        ordered = ''.join(sorted(lowercase_word))
+        if ordered in anagrams:
+            anagrams[ordered].append(lowercase_word)
+        else:
+            anagrams[ordered] = [lowercase_word]
 
-    return result
+    return anagrams
+
+
+Has git add . 
