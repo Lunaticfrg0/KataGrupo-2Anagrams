@@ -15,5 +15,9 @@ class TestAnagram(unittest.TestCase):
         words = ["sort", "rots"]
         self.assertEqual(compute_anagrams(words), {"orst" : ['sort', 'rots']})
 
+    def test_anagrams4(self):
+        words = ["pAste", "tapeS", "Sepat"]
+        self.assertEqual(compute_anagrams(words), {"aepst" : ['paste', 'tapes', 'sepat']})
+
 if __name__ == '__main__':
     unittest.main()
