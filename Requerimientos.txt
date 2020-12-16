@@ -10,10 +10,6 @@
     --CA-02: Denegar el estudio de caracteres que incluyan numeros.
     
 --Escenarios de prueba:
-    --EP-01: listen = silent, enlist, inlets
-    --EP-02: sinks = skins
-    --EP-03: sort = rots
-    --EP-04: hi != hello
-    --EP-05: no != yes
-
-
+    --EP-01: listen, silent, enlist, inlets
+    --EP-02: sinks , skins
+    --EP-03: sort, rots
